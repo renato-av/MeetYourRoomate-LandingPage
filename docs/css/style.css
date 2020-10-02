@@ -1,0 +1,399 @@
+body {
+    margin: 0;
+    background: white;
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+}
+
+.belowHeader {
+
+}
+
+.text {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10vh;
+    color: #212121;
+}
+
+.backgroundIMG {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+}
+
+.showcase {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    color: white;
+}
+
+.card {
+    color: #282828;
+    background-color: white;
+    width: auto;
+    height: 35vh;
+
+    border-radius: 15px;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    text-align: center;
+}
+
+.card p {
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1.5rem;
+}
+
+#banner {
+    background-image: url('../img/bannerBG.jpg') ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    color: white;
+}
+
+#banner nav {
+    display: flex;
+}
+
+#banner ul {
+    position: absolute;
+    right: 0;
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30vw;
+    margin-right: auto;
+}
+
+#banner ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.logo {
+    width: auto;
+    height: 10vh;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#banner > h1 {
+    padding-top: 10vh;
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+#banner p {
+    padding-top: 10vh;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.5rem;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.MYRname {
+    font-size: 4rem;
+    margin-top: 20px;
+    color: #B50219;
+}
+
+.grid-wrapper {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secTitle {
+    display: block;
+    font-size: 6rem;
+    color: #F11C22;
+    margin-top: 8vh;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.marginated {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.vert {
+    flex-direction: column;
+}
+
+.horz {
+    flex-direction: row;
+}
+
+.wth_bot_borders {
+    border-bottom: solid #dfdbd8;
+}
+
+.icon {
+    display: block;
+    width: 8vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.sideIMG {
+    display: inline-block;
+    height: 100vh;
+    width: auto;
+}
+
+.name {
+    display: block;
+    font-size: 2.5rem;
+    color: #E31D1D;
+}
+
+button {
+    display: block;
+    color: white;
+    background: rgb(229,30,30);
+    background: linear-gradient(155deg, rgba(229,30,30,1) 0%, rgba(104,0,0,1) 100%);
+    border-radius: 100px;
+    border-style: none;
+    width: 25vw;
+    height: 10vh;
+    font-size: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+}
+
+button:hover {
+    cursor:pointer;
+}
+
+
+.contactIcon {
+    display: block;
+    width: 5vw;
+    height: auto;
+    margin-left: 30vw;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    padding-top: 10px;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+a {
+    color:white;
+    font-size:1rem;
+    text-decoration: none;
+}
+
+a:link {
+    color:white;
+    font-size:1rem;
+    text-decoration: none;
+}
+
+a:visited {
+    color:white;
+    font-size:1rem;
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+}
+
+.gSize3{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.right {
+    margin-left: auto;
+}
+
+.gSize2 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.gSize5 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.gSize2 p{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #E31D1D;
+    font-size: 2rem;
+}
+
+#contactus h1{
+    margin-bottom: 20vh;
+}
+
+@media screen and (max-width: 1200px) {
+    .MYRname {
+        font-size: 3rem;
+    }
+    #banner .horz {
+        flex-direction: row;
+    }
+    .horz{
+        flex-direction: column;
+    }
+
+    .gSize3 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .gSize5 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .sideIMG {
+        height: auto;
+        width: 100vw;
+    }
+    .showcase {
+        height: auto;
+    }
+    .icon {
+        width: auto;
+        height: 8vh;
+    }
+    .logo {
+        height: auto;
+        width: 15vw;
+    }
+    button {
+        width: 30vw;
+        height: 5vh;
+        font-size: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+    #contactus h1 {
+        margin-bottom: 5vh;
+    }
+    #contactus .flex {
+        padding-bottom: 5vh;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .MYRname {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #banner .horz {
+        flex-direction: column;
+    }
+    .MYRname {
+        font-size: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .logo {
+        height: auto;
+        width: 15vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #banner h1 {
+        font-size: 2.5rem;
+    }
+    #banner p {
+        font-size: 1.5rem;
+    }
+    #banner ul{
+        flex-direction: column;
+    }
+    .secTitle {
+        font-size: 2rem;
+    }
+
+    button {
+        width: 40vw;
+        height: auto;
+        font-size: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+
+    .name {
+        font-size: 1rem;
+    }
+    #banner ul {
+        position: unset;
+        list-style: none;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        margin-right: auto;
+        margin-left: auto;
+        padding-inline-start: 0;
+    }
+    #banner ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .card p {
+        font-size: 1rem;
+    }
+    .text {
+        font-size: 1.5rem;
+    }
+    #contactus h1 {
+        margin-bottom: 5vh;
+    }
+    .gSize2 p {
+        font-size: 1rem;
+    }
+    #contactus .flex {
+        padding-bottom: 5vh;
+    }
+}
