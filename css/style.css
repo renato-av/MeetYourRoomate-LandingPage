@@ -304,6 +304,7 @@ a:visited {
         margin-right: auto;
         margin-top: 10vh;
         margin-bottom: 10vh;
+        animation: fadein 2s;
     }
     #contactus h1 {
         margin-bottom: 5vh;
@@ -389,4 +390,9 @@ a:visited {
     #contactus .flex {
         padding-bottom: 5vh;
     }
+}
+
+@keyframes fadein {
+    0% {opacity: 0}
+    100% {opacity: 100%}
 }
