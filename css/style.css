@@ -22,6 +22,7 @@ body {
     background-position: center;
     height: 100vh;
     width: auto;
+    animation: fadein 2s;
 }
 
 .showcase {
@@ -314,6 +315,11 @@ a:visited {
     }
 }
 
+@keyframes fadein {
+    0% {opacity: 0}
+    100% {opacity: 100%}
+}
+
 @media screen and (max-width: 1050px) {
     .MYRname {
         font-size: 2.5rem;
@@ -390,9 +396,4 @@ a:visited {
     #contactus .flex {
         padding-bottom: 5vh;
     }
-}
-
-@keyframes fadein {
-    0% {opacity: 0}
-    100% {opacity: 100%}
 }
