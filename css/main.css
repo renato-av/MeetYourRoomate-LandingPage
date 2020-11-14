@@ -457,6 +457,7 @@ body {
     color: white;
     font-weight: 600;
     background-color: #B3061A;
+    margin: 0 auto;
 }
 
 .main .info-extra {
@@ -499,6 +500,19 @@ body {
     margin-left: 3%;
 }
 
+.btn-info {
+    color: white;
+    text-decoration: none;
+    border: .05rem solid white;
+    border-color: white;
+    border-radius: .3rem;
+    padding: .5rem;
+}
+
+.main .info-extra .contenedor .info .contenido-info .texto-info .btn-info:hover {
+    background-color: #B3061A;
+}
+
 .main .info-extra .contenedor .info .contenido-info .texto-info h4 {
     font-size: 1.875rem;
     line-height: 24px;
@@ -511,6 +525,8 @@ body {
     color: #979797;
     font-size: 1rem;
     font-weight: 400;
+    padding-bottom: 1.5rem;
+    margin-right: 2rem;
 }
 
 .main .info-extra .contenedor .foto {
@@ -653,11 +669,13 @@ footer .footer-redes a:hover {
         margin-bottom: 60px;
     }
     .main .nuestro-equipo .equipo .plan {
-        max-width: 100%;
         display: block;
         justify-content: center;
-        text-align: left;
         margin: 15px;
+    }
+    .main .nuestro-equipo .equipo .plan a {
+        max-width: 100%;
+        text-align: center;
     }
     .main .nuestro-equipo .equipo .plan:first-child {
         top: -20px;
@@ -747,6 +765,9 @@ footer .footer-redes a:hover {
     .main .contacto .contenedor-formulario .formulario form textarea {
         text-align: center;
     }
+    .main .nuestro-equipo .equipo .plan a {
+        align-items: center;
+    }
 }
 
 @media screen and (max-width:550px) {
@@ -775,7 +796,13 @@ footer .footer-redes a:hover {
         align-items: center;
         text-align: center;
     }
+    .main .nuestro-equipo .equipo .plan .text-center .m-5 {
+        display: flex;
+        flex-direction: column;
+    }
     .main .nuestro-equipo .equipo .plan .m-5 a {
+        text-align: center;
+        align-items: center;
         font-size: 16px;
         padding: 10px 15px;
     }

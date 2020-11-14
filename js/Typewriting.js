@@ -35,8 +35,8 @@ $(function() {
                 if ($("#site-type").length) {
                     $(".typewrite span").typed({
                         strings: ["Hogar", "Seguridad", "Meet Your Roommate"],
-                        typeSpeed: 97,
-                        backDelay: 500,
+                        typeSpeed: 120,
+                        backDelay: 1000,
                         loop: false,
                         contentType: 'html',
                         loopCount: false,
