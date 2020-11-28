@@ -107,6 +107,25 @@ body {
     font-size: 1rem;
 }
 
+.videos {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.videos h2 {
+    color: #B3061A;
+    font-size: 2rem;
+    align-items: center;
+}
+
+.about-the-team {
+    margin-left: 2rem;
+}
+
+.about-the-product {
+    margin-right: 2rem;
+}
+
 .menu-principal a:hover,
 .top-redes a:hover {
     font-size: 16px;
